@@ -1,6 +1,10 @@
 ---
 id: running-the-app
+title: Running our App
+previous_page: index
+next_page: poking-around
 ---
+
 
 # Running Our Application
 

@@ -3,3 +3,6 @@ title: Learning about Web Hacks
 description: A tutorial about the basics of web hacking and how to fix vulnerabilities
 sidebar:
   - running-the-app
+  - poking-around
+  - sql-injection
+  - command-injection

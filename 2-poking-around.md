@@ -1,3 +1,10 @@
+---
+id: poking-around
+title: Poking Around
+previous_page: running-the-app
+next_page: sql-injection
+---
+
 If you go to `localhost:1337` in your browser, you should get something like this:
 
 ![Main page of website](images/main-1.png)

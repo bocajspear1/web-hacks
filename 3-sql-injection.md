@@ -1,3 +1,11 @@
+---
+id: sql-injection
+title: SQL Injection
+previous_page: poking-around
+next_page: command-injection
+---
+
+
 A classic vulnerability is SQL injection. This is one of a class of vulnerabilities called "injection vulnerabilities" that involve malicious user inputs being inserted into places it shouldn't be that can cause the target to so something unexpected. For SQL injection, this is for the database language SQL. SQL is a language used to query databases for data. For example, if we want all rows from the database "users" with the first name "Joe", we could use the query:
 
 ```
