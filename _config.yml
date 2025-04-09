@@ -6,3 +6,5 @@ sidebar:
   - poking-around
   - sql-injection
   - command-injection
+  - files
+  - xss

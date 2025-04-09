@@ -12,7 +12,7 @@ A classic vulnerability is SQL injection. This is one of a class of vulnerabilit
 SELECT * FROM users WHERE first_name='Joe';
 ```
 
-For a more detailed overview of SQL, you can look here: https://www.w3schools.com/sql/
+For a more detailed overview of SQL, [you can look here](https://www.w3schools.com/sql/)
 
 ## The Problem
 

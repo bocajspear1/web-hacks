@@ -1,6 +1,6 @@
 ---
 id: files
-title: Command Injection
+title: File Vulnerabilities
 previous_page: command-injection
 next_page: xss
 ---

@@ -1,5 +1,5 @@
 ---
 id: xss
-title: Command Injection
+title: XSS Attacks
 previous_page: files
 ---
