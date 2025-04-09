@@ -1,3 +1,7 @@
+---
+id: running-the-app
+---
+
 # Running Our Application
 
 **Expected Knowledge:** Some familiarity with coding and Linux, basics of HTTP, Docker (or Podman) is installed, you know how to use `git`

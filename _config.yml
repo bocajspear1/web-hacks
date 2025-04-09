@@ -1,3 +1,5 @@
-theme: midnight
+remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.7.3
 title: Learning about Web Hacks
 description: A tutorial about the basics of web hacking and how to fix vulnerabilities
+sidebar:
+  - running-the-app
