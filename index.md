@@ -9,4 +9,4 @@ So in a way, learning to hack web applications is easy. There's so many targets 
 
 > NOTE: Remember, you are responsible with what you do with this knowledge. Always get permission to attack systems that don't belong to you and use this knowledge to help others. Don't use this for illegal activities!
 
-Let's start with 
+Lets get started!

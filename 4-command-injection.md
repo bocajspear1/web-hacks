@@ -5,6 +5,8 @@ previous_page: sql-injection
 next_page: files
 ---
 
+# Command Injection
+
 Command injection is probably one of my favorites. It gives you complete control of your target and you'll (sadly) find it everywhere. Even today applications have these vulnerabilities leading to very dangerous issues.
 
 For example:
@@ -50,6 +52,6 @@ passthru("ps aux | grep " . escapeshellarg($_GET['psfilter']));
 
 Note that if we put `nothing; ls -la` in the filter again, the extra `ls` command does not run. This is because `escapeshellarg` escapes characters like `;` and `&` to ensure they can't be used to inject commands.
 
-My preferred way is to always reduce to the minimal required characters. In certain cases where inputs are broad, using something like `escapeshellarg` is extremely important, but in most cases, you only need a limited character set. For example, if you are putting a user ID number into a command, ensure the user ID is a number only. This is a good mindset in general to defeat injection attacks, reduce your allowed characters to a minimum for what you need. Have user names? Only allow alphanumeric characters. 
+My preferred way is to always reduce to the minimal required characters. In certain cases where inputs are broad, using something like `escapeshellarg` is extremely important, but in most cases, you only need a limited character set. For example, if you are putting a user ID number into a command, ensure the user ID is a number only. This is a good mindset in general to defeat injection attacks: reduce your allowed characters to a minimum for what you need. Have user names? Only allow alphanumeric characters. 
 
 By reducing your character set to a minimum and using filtering/escaping functions like `escapeshellarg` you can avoid a lot injection attacks.

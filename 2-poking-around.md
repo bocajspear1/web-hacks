@@ -5,6 +5,8 @@ previous_page: running-the-app
 next_page: sql-injection
 ---
 
+# Poking Around
+
 If you go to `localhost:1337` in your browser, you should get something like this:
 
 ![Main page of website](images/main-1.png)
